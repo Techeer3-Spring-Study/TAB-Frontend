@@ -1,17 +1,17 @@
-import React, { useState } from "react";
+import React, { useState } from 'react';
 import {TextInput} from 'react-native';
 import styles from '../../styles/emailLogin/IDInputbox';
 
-const [id, setId] = useState("");
-
 function InputboxID() {
+    const [id, setId] = useState('');
+
     return (
         <TextInput
             style = {styles.inputStyle}
             placeholder = '아이디'
-            value={id}
-            onChangeText={(id) => setId(id)}
-        >
+            value = {id}
+            onChangeText = {(id) => setId(id)}
+        >   
         </TextInput>
     );
 };

@@ -5,6 +5,11 @@ import styles from '../../styles/emailLogin/IDInputbox';
 function InputboxID() {
     const [id, setId] = useState('');
 
+    const getMockData = async () => {
+        const res = await fetch('/api/v1//auth/signin');
+        console.log(await res.json());
+      };
+
     return (
         <TextInput
             style = {styles.inputStyle}

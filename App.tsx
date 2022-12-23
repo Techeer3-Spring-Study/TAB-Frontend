@@ -8,19 +8,21 @@
  * @format
  */
 
- import {NavigationContainer} from '@react-navigation/native';
- import {createStackNavigator} from '@react-navigation/stack';
- import LoginScreen from './src/screens/login';
- import EmailLoginScreen from './src/screens/emailLogin';
- import SignUpScreen from './src/screens/signup';
- import PostScreen from './src/screens/main/PostScreen';
- import ArticleScreen from './src/screens/main/ArticleScreen';
- import MainScreen from './src/screens/main';
- import {RootStackParamList} from './src/screens/RootStackParams';
+import {NavigationContainer} from '@react-navigation/native';
+import {createStackNavigator} from '@react-navigation/stack';
+import LoginScreen from './src/screens/login';
+import EmailLoginScreen from './src/screens/emailLogin';
+import SignUpScreen from './src/screens/signup';
+import PostScreen from './src/screens/main/PostScreen';
+import ArticleScreen from './src/screens/main/ArticleScreen';
+import MainScreen from './src/screens/main';
+import {RootStackParamList} from './src/screens/RootStackParams';
+import axios from 'axios';
+
 const Stack = createStackNavigator<RootStackParamList>();
 
 
-import React, {type PropsWithChildren} from 'react';
+import React, {type PropsWithChildren, useState, useEffect} from 'react';
 import {StyleSheet, Text, useColorScheme, View} from 'react-native';
 
 import {Colors} from 'react-native/Libraries/NewAppScreen';

@@ -17,7 +17,7 @@ function PostButton() {
         >
             <FontAwesome 
                 name = 'pencil' 
-                size = {Platform.OS == 'ios' ? 70 : 45} 
+                size = {Platform.OS == 'ios' ? 50 : 45} 
                 color = '#2BC63B' 
             />
         </TouchableOpacity>

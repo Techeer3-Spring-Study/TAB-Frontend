@@ -1,6 +1,6 @@
 import {StyleSheet} from 'react-native';
 
-const styles = StyleSheet.create ({
+const pwstyles = StyleSheet.create ({
     inputStyle: {
         marginRight: 20,
         padding: 10,
@@ -9,4 +9,4 @@ const styles = StyleSheet.create ({
         borderRadius: 10
     }
 });
-export default styles;
+export default pwstyles;

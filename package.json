@@ -7,12 +7,14 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "node": "set NODE_ENV=dev && node app.js"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.1",
     "@fortawesome/free-solid-svg-icons": "^6.2.1",
     "@fortawesome/react-native-fontawesome": "^0.3.0",
+    "@react-native-async-storage/async-storage": "^1.17.11",
     "@react-native-community/checkbox": "^0.5.14",
     "@react-native-community/masked-view": "^0.1.11",
     "@react-navigation/bottom-tabs": "^6.4.1",
@@ -20,6 +22,7 @@
     "@react-navigation/native-stack": "^6.9.1",
     "@react-navigation/stack": "^6.3.4",
     "axios": "^1.2.1",
+    "cross-env": "^7.0.3",
     "jsx": "^0.9.89",
     "react": "18.1.0",
     "react-native": "0.70.5",
@@ -45,6 +48,7 @@
     "@react-native-community/eslint-config": "^2.0.0",
     "@tsconfig/react-native": "^2.0.2",
     "@types/jest": "^26.0.23",
+    "@types/node": "^18.11.17",
     "@types/react": "^18.0.26",
     "@types/react-native": "^0.70.8",
     "@types/react-native-material-dropdown": "^0.11.5",

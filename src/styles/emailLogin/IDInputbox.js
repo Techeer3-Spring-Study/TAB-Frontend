@@ -1,6 +1,6 @@
 import {StyleSheet} from 'react-native';
 
-const styles = StyleSheet.create ({
+const idstyles = StyleSheet.create ({
     inputStyle: {
         marginRight: 20,
         padding: 10,
@@ -10,4 +10,4 @@ const styles = StyleSheet.create ({
     }
 });
 
-export default styles;
+export default idstyles;

@@ -8,7 +8,7 @@ function InputboxID() {
     const getMockData = async () => {
         const res = await fetch('/api/v1//auth/signin');
         console.log(await res.json());
-      };
+    };
 
     return (
         <TextInput

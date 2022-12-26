@@ -7,7 +7,7 @@ const styles = StyleSheet.create ({
     },
 
     anonymoustext:{
-        marginTop: Platform.OS == 'ios' ? 80 : 20,
+        marginTop: Platform.OS == 'ios' ? 60 : 20,
         marginLeft: 20,
         fontFamily: 'GmarketSansTTFMedium',
         fontSize: Platform.OS == 'ios' ? 25 : 20,
@@ -20,7 +20,7 @@ const styles = StyleSheet.create ({
     },
 
     categorytext:{
-        marginTop: Platform.OS == 'ios' ? 20 : 20,
+        marginTop: Platform.OS == 'ios' ? 10 : 20,
         marginLeft: 20,
         fontFamily: 'GmarketSansTTFMedium',
         fontSize: Platform.OS == 'ios' ? 25 : 20,
@@ -55,7 +55,6 @@ const styles = StyleSheet.create ({
     },
 
     hashtag: {
-        marginTop: Platform.OS == 'ios' ? 10 : 0,
         marginLeft: 10,
         marginRight: 10,
     },

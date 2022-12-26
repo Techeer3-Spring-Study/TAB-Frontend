@@ -12,7 +12,7 @@ const styles = StyleSheet.create ({
     },
 
     image: {
-        width: Platform.OS == 'ios' ? 110 : 130,
+        width: Platform.OS == 'ios' ? 140 : 130,
         height: 60,
         marginTop: Platform.OS == 'ios' ? 50 : 20,
         resizeMode: 'contain',
@@ -36,9 +36,10 @@ const styles = StyleSheet.create ({
     },
 
     verticleLine: {
-        marginTop: Platform.OS == 'ios' ? 10 : 0,
         width: '91%',
         height: 2,
+        marginTop: Platform.OS == 'ios' ? 20 : 0,
+        marginBottom: Platform.OS == 'ios' ? 10 : 0,
         marginLeft: 20,
         backgroundColor: '#909090',
     },

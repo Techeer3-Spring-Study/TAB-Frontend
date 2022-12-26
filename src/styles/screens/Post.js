@@ -7,7 +7,7 @@ const styles = StyleSheet.create ({
     },
 
     anonymoustext:{
-        marginTop: Platform.OS == 'ios' ? 60 : 20,
+        marginTop: Platform.OS == 'ios' ? 80 : 20,
         marginLeft: 20,
         fontFamily: 'GmarketSansTTFMedium',
         fontSize: Platform.OS == 'ios' ? 25 : 20,
@@ -36,6 +36,7 @@ const styles = StyleSheet.create ({
         width: '91%',
         height: 3,
         marginLeft: 20,
+        marginBottom: 10,
         borderRadius: 50,
         backgroundColor: '#CECECE',
     },

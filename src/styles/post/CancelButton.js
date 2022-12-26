@@ -3,7 +3,7 @@ import {StyleSheet, Platform} from 'react-native';
 const styles = StyleSheet.create ({
     buttonStyle: {
         marginTop: Platform.OS == 'ios' ? 30 : 20,
-        marginLeft: Platform.OS == 'ios' ? 130 : 140,
+        marginLeft: Platform.OS == 'ios' ? 100 : 140,
         marginRight: 20,
         marginBottom: Platform.OS == 'ios' ? 30 : 50,
         padding: 10,
